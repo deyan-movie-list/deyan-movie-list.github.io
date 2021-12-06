@@ -1,7 +1,6 @@
 {
-  "name": "movie-list-Final",
+  "name": "movie-list-final",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "http-server": "^13.0.2",
@@ -11,11 +10,20 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev":"lite-server",
-    "server":"cd server && node server.js",
-    "start":"http-server -a localhost -p 3000 -P http://lochalhost:3000? -c-1"
+    "dev": "lite-server",
+    "server": "cd server && node server.js",
+    "start": "http-server -a localhost -p 3000 -P http://lochalhost:3000? -c-1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deyan-movie-list/deyan-movie-list.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deyan-movie-list/deyan-movie-list.github.io/issues"
+  },
+  "homepage": "https://github.com/deyan-movie-list/deyan-movie-list.github.io#readme",
+  "description": ""
 }
