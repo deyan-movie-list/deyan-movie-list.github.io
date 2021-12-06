@@ -1,5 +1,5 @@
  
-import { html } from './../../node_modules/lit-html/lit-html.js';
+import { html } from 'https://unpkg.com/lit-html?module';
 import * as movieServices from './../services/movieServices.js';
 import {movieFormTemplate} from './templates/movieFormTemplate.js'
 

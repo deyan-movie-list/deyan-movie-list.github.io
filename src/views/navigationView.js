@@ -1,6 +1,6 @@
 import {
     html
-} from "./../../node_modules/lit-html/lit-html.js";
+} from 'https://unpkg.com/lit-html?module';
 
 const privateButtons = () => html `
 <a class="nav-link" href="/my-movies">My Movies</a>
