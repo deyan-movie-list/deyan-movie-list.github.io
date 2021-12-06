@@ -1,4 +1,4 @@
-Visit : http://www.deyan-movie-list.github.io
+Visit : http://deyan-movie-list.github.io
 
 ### You have a movie data that can be stored
 
