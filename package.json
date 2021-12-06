@@ -1,0 +1,21 @@
+{
+  "name": "movie-list-Final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^13.0.2",
+    "lit-html": "^2.0.0",
+    "lite-server": "^2.6.1",
+    "page": "^1.11.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev":"lite-server",
+    "server":"cd server && node server.js",
+    "start":"http-server -a localhost -p 3000 -P http://lochalhost:3000? -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
