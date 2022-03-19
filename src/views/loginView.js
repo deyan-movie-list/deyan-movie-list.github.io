@@ -45,7 +45,6 @@ export function loginPage(ctx) {
       .then(() => {
         ctx.page.redirect('/');
       })
-console.log('here we go')
     if (email && password) {
       return
     }
