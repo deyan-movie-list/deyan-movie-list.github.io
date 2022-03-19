@@ -32,7 +32,7 @@ const loginTemplate = (onSubmit) => html `
     </form>
 
   </div>`
-
+console.log(loginTemplate)
 export function loginPage(ctx) {
   const onLoginSubmit = (e) => {
     e.preventDefault();
